@@ -1,0 +1,21 @@
+@charset "UTF-8";/*comentario em css*/
+
+body{
+    background-color: plum;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-size: larger;
+}
+
+    h1{
+        color: rgb(0, 132, 255);
+        background-color: rgb(226, 43, 211);
+}
+
+    h2{
+        color: rgb(159, 74, 238);
+}
+
+    p{
+        text-align: justify;
+}

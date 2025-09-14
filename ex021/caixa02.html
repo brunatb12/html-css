@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            background-color: rgb(143, 143, 143);
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        li {
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        a:visited {
+            color: rgb(117, 173, 141);
+        }
+        
+        a:hover {
+            color: brown;
+            text-decoration: none;
+        }
+        a:active {
+            color: black;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.521);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ab voluptate iste modi laboriosam veritatis labore, earum deserunt. Est iusto obcaecati ab voluptatum molestiae dolorem ea repudiandae magnam iure nam architecto maiores, optio, excepturi dolore! Neque suscipit, reprehenderit impedit laborum explicabo repellat repellendus quos doloremque dicta, tenetur velit molestias similique assumenda voluptates doloribus architecto eaque odio. Ut iure sed officiis error nam impedit! Aliquid beatae minima suscipit, minus odio, aut vel animi nostrum provident veritatis pariatur asperiores illum ipsa porro sint accusamus quo laudantium reiciendis adipisci ex neque dolorem distinctio? Eius distinctio ipsa modi quia expedita soluta. Omnis, officia asperiores?
+                </p>
+                <aside>
+                    <p>Artigo escrito por Bruna Bento</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por oioioioi</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
